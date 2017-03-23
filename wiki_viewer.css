@@ -1,0 +1,81 @@
+body, html {
+  height: 100%;
+  text-align: center;
+  background-repeat: no-repeat;
+  
+  /* linear gradient */
+  background-color: #737373; /* ff6767 fallback color if gradients are not supported */
+  background-image: -webkit-linear-gradient(top, #1a1a1a, #737373); /* For Chrome 25 and Safari 6, iOS 6.1, Android 4.3 */
+  background-image:    -moz-linear-gradient(bottom, #1a1a1a, #737373); /* For Firefox (3.6 to 15) */
+  background-image:      -o-linear-gradient(bottom, #1a1a1a, #737373); /* For old Opera (11.1 to 12.0) */ 
+  background-image:         linear-gradient(to bottom, #1a1a1a, #737373); /* Standard syntax; must be last */
+}
+
+#titleText, #random, #search{
+  display: none;
+}
+
+h1 {
+  color: white;
+  line-height: 160px;
+}
+
+p {
+  font-size: 20px;
+  border: 3px groove white; 
+  width: 550px;
+  margin: auto;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #e6e6e6;
+  cursor: pointer;
+  transition: box-shadow 0.3s linear;
+  padding: 5px;
+}
+
+p:hover{
+  box-shadow: 0px 0px 15px #ff4d4d;
+}
+
+a, a:hover, a:active, a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+input[type=text] {
+  background-color: #333;
+  color: white;
+}
+
+/* buttons */
+.btn{
+  background-color: white;
+}
+
+.btn-primary {
+  background-color: #737373;
+  border: 1px solid #ff4d4d;
+}
+
+.btn-primary:hover, 
+.btn-primary:focus, 
+.btn-primary:active, 
+.btn-primary:active:hover,
+.btn-primary.active {
+  background-color: #333;
+  border: 1px solid #ff4d4d;
+}
+
+.btn-info {
+  background-color: #737373;
+  border: 1px solid #ff4d4d;
+}
+
+.btn-info:hover,
+.btn-info:focus,
+.btn-info:active,
+.btn-info:active:hover,
+.btn-info.active {
+  background-color: #333;
+  border: 1px solid #ff4d4d;
+}
